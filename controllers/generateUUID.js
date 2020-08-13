@@ -9,5 +9,13 @@ module.exports = {
 			res(ID)
 		})
 
+	}, 
+
+	generateUKEY: async () => {
+		return new Promise((res, rej) => {
+			var ID = nanoid(7);
+			res(ID)
+		})
+
 	}
 }

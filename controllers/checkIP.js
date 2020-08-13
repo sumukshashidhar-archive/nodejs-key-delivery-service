@@ -22,10 +22,11 @@ module.exports = {
 
 	},
 
-	add: async (ip, keyx) => {
+	add: async (ip, keyx, UKEY) => {
 		const newKey = new key({
 			ip:ip, 
-			key:keyx
+			key:keyx,
+			UKEY:UKEY
 		})
 
 		newKey.save((err, obj) => {
