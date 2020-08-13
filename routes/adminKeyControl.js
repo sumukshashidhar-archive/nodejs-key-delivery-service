@@ -4,7 +4,10 @@ module.exports = function(app) {
     app.get('/deleteKeys', async (req, res) => {
         let response = await adKeyOps.dropKeys()
         if(response) {
-            res.render('success/adminUserDeletion')
+            res.json({
+                "status":200, 
+                "message":"Dropped"
+            })
         }
     })
 
