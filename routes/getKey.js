@@ -1,4 +1,4 @@
-const gen = require("./controllers/generateUUID")
+const gen = require("./../controllers/generateUUID")
 module.exports = (app) => {
 
 
