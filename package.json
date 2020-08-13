@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-key-delivery-service",
+  "version": "1.0.0",
+  "description": "A simple nodejs application to deliver unique keys to users based on their IPs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumukshashidhar/nodejs-key-delivery-service.git"
+  },
+  "author": "Sumuk Shashidhar",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sumukshashidhar/nodejs-key-delivery-service/issues"
+  },
+  "homepage": "https://github.com/sumukshashidhar/nodejs-key-delivery-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "nanoid": "^3.1.12"
+  }
+}
